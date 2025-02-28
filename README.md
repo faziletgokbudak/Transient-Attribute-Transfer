@@ -8,6 +8,8 @@ The dataset I utilised for all the experiments can be found [here](http://transa
 
 To finetune both Stable Diffusion v1.5 and ControlNet, I first created a paired set using the annotations as the associated text prompts. You can download the custom dataset [here](https://drive.google.com/file/d/1QHDDIUhhAx1KGyfXdUwRopzDONpkTFNl/view?usp=sharing).
 
+![Finetuning - Overview](TAT-overview.pdf)
+
 ## DDIM Inversion
 
 The zero-shot experiments are based on DDIM inversion, where I played with the start step of the intermediate latents as well as the guidance scale of the text conditions. I ran my experiments based on this [Colab notebook](https://colab.research.google.com/github/huggingface/diffusion-models-class/blob/main/unit4/01_ddim_inversion.ipynb).
