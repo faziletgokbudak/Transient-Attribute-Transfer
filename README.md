@@ -6,7 +6,7 @@ Zero-shot Transient Attribute Transfer is an exploratory research that was accep
 ## Dataset and Finetuning
 The dataset I utilised for all the experiments can be found [here](http://transattr.cs.brown.edu/). This dataset (TAT) contains 8571 images from 101 webcams, all annotated with 40 attribute labels [1].
 
-To finetune both Stable Diffusion v1.5 and ControlNet, I first created a paired set using the annotations as the associated text prompts. You can download my custom dataset [here](https://drive.google.com/file/d/1QHDDIUhhAx1KGyfXdUwRopzDONpkTFNl/view?usp=sharing). I wrote the "tat_data_prep.py" script to prepare this set from the original dataset. 
+To finetune both Stable Diffusion v1.5 and ControlNet, I first created a paired set using the annotations as the associated text prompts. You can find my custom dataset [here](https://huggingface.co/datasets/faziletgokbudak/instructpix2pix-image-attribute-transfer). I wrote the "tat_data_prep.py" script to prepare this set from the original dataset. The publi
 
 ![Finetuning - Overview](TAT-overview.png)
 
